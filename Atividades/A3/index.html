@@ -17,8 +17,12 @@
 </head>
 
 <body>
-    <h1>Meu site HTML :D</h1> <!-- Tag de título -->
+    <h2>Tags de texto</h2>
+    <hr>
+
+    <h1>Meu site HTML :D</h1> <!-- Tag de título, vai do 1 ao 6, quanto maior menor o tamanho do texto -->
     <h5>Ps.: Por ora sem css 😉</h5>
+
     <p> <!-- Tag de parágrafo -->
         Vivamus commodo metus eget suscipit fringilla. Integer ut turpis egestas, pharetra enim non, congue ex. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aenean tincidunt luctus lacus sed suscipit. Aenean eget suscipit ex, vitae venenatis erat. 
     </p>
@@ -26,8 +30,12 @@
         Texto pré-formatado
     Aqui cada tabulação      ou       espaço, não é ignorado
     Fica igual ao que está escrito no código     :)
+
     </pre>
 
+    
+    <h2>Tags de lista e link</h2>
+    <hr>
     <h3>Lista de afazeres</h3>
     <ul style="list-style-type:circle;"> <!-- Tag de lista ordenadas -->
         <li><a href="">Terminar esta página HTML</a></li>
@@ -46,16 +54,19 @@
         <img src="https://ae01.alicdn.com/kf/H0796eedf43804726819970bb8de51be5Q/P-S-LOTE-4-Pokemon-Pikachu-Brinquedos-Cl-ssicos-Etiqueta-Personalidade-Forma-Dos-Desenhos-Animados-Port.jpg_Q90.jpg_.webp" alt="Pikapi" width="150"> <!-- Tag de imagem -->
     </a>
 
-    <table border="3">
-        <thead>
-            <tr>
-                <th colspan="3">Jogos</th>
+    
+    <h2> Tags de tabela </h2>
+    <hr>
+    <table border="3"> <!-- Tag de tabela -->
+        <thead> <!-- Tag do cabeçalho da tabela -->
+            <tr> <!-- Tag de linha da tabela -->
+                <th colspan="3">Jogos</th> <!-- tag de célula do cabeçalho-->
             </tr>
-        </thead>
+        </thead> 
 
-        <tbody>
+        <tbody> <!-- Tag do corpo da tabela -->
             <tr>
-                <td rowspan="2">Mario</td>
+                <td rowspan="2">Mario</td> <!-- Tag de célula, ocupando 2 espaços de linha -->
                 <td>Sonic</td>
                 <td>Zelda</td>
             </tr>
@@ -65,30 +76,40 @@
             </tr>
         </tbody>
 
-        <tfoot>
+        <tfoot> <!-- Tag do rodapé da tabela-->
             <tr>
-                <td>LOL</td>
-                <td colspan="2">GTA V</td>
+                <td>LOL</td> 
+                <td colspan="2">GTA V</td> <!-- ocupando 2 espaços de coluna -->
             </tr>
         </tfoot>
     </table>
+    <br>
+    
 
-    <p>Este texto tem<strong> Negrito</strong>, palavras 
-    <small>Pequenas</small>, textos <ins>Adicionados</ins> e até 
-    <em>ênfatizados</em>, <sub>2</sub> <sup>2</sup> <mark> e muito mais </mark><del>Como esse Deletado</del></p>
+    <h2> Tags de formatação e citação</h2>
+    <hr>
+    <p>Este texto tem <!-- O texto já explica cada uma dessas tags de formatação -->
+        <strong> Negrito</strong>, palavras 
+        <small>Pequenas</small>, textos 
+        <ins>Adicionados</ins> e até 
+        <em>ênfatizados</em>, 
+        <sub>2</sub> 
+        <sup>2</sup> 
+        <mark> e muito mais </mark>
+        <del>Como esse Deletado</del></p>
     
     <p>Segundo Zézin:
-        <q>é cumendo qui se fortaleci.</q>
+        <q>é cumendo qui se fortaleci.</q> <!-- Tag de citação breve -->
     </p>
 
-    <blockquote cite="">
+    <blockquote cite="https://www.42frases.com.br/frases-lindas-de-reflexao/"> <!-- Tag de citação de outra fonte -->
         Somos arquitetos do nosso próprio destino.
     </blockquote>
     <p>
-    <abbr title="Instituto Federal de Educação, Ciência e Tecnologia de São Paulo">IFSP</abbr>
+    <abbr title="Instituto Federal de Educação, Ciência e Tecnologia de São Paulo">IFSP</abbr> <!-- Tag de abreviatura -->
     </p>
 
-    <address>
+    <address> <!-- Tag de endereço -->
         Rua Ninguém, N° 0, Bairro do Vazio, <br>
         Nada - ND, <br>
         00000-000
@@ -96,28 +117,35 @@
 
     <img src="./nyan-cat-1.gif" width="150" height="150" alt="Nyan cat :3">
     <p>
-    <cite>Nyan Cat</cite>
+    <cite>Nyan Cat</cite> <!-- Tag do título de uma obra -->
     Por Chris Torres. Feito em 2011
     </p>
 
-    <bdo dir="rtl"> Invertido</bdo>
+    <bdo dir="rtl"> Invertido</bdo> <!-- Tag que define a direção do texto -->
 
-    <p> Elemento <span style="border: 1px solid black;">em linha</span>
-    </p>
-    <p>Elemento<div style="border: 1px solid black;">em bloco</div>
-    </p>
-
-    <iframe width="90%" height="450px" src="https://www.ifsp.edu.br/" name="IF"></iframe>
-    <h2><a href="https://www.friv.com/" target="IF">Friv</a></h2>
+    <br><br>
+    <h2> Tags com exemplo de display block e inline</h2>
+    <hr>
     
-    <h2> Media </h2>
-    <video controls width="500" height="250">
-        <source src="https://www.w3schools.com/html/movie.mp4" type="video/mp4">
-    </video>
+    <p> Elemento <span style="border: 1px solid black;">em linha</span>
+    </p> <!-- A tag span tem display inline, então o espaço que ela ocupa é apenas o necessário pelo texto, ela não cria uma nova linha para tal -->
+    <p>Elemento<div style="border: 1px solid black;">em bloco</div>
+    </p> <!-- A tag div tem display block, então ela ocupa todo o espaço da linha em questão, assim ela cria uma nova linha sem nada-->
 
-    <audio controls autoplay>
+    <br>
+    <h2>Tags de iframe e media</h2>
+    <hr>
+    <iframe width="100%" height="450px" src="https://www.ifsp.edu.br/" name="IF"></iframe> <!-- A tag iframe adiciona outra página dentro da sua -->
+    <h2> Clique aqui -> <a href="https://www.friv.com/" target="IF">Friv</a></h2>
+    
+    <br>
+    <video controls width="500" height="250">
+        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+    </video> <!-- A tag video adiciona um video -->
+
+    <audio controls autoplay muted>
         <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg">
-    </audio>
+    </audio> <!-- A tag aúdio adiciona um aúdio -->
 
     <p>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/894UH09NQ88" title="Aquecimento Global" frameborder="0" allowfullscreen></iframe>
