@@ -1,11 +1,11 @@
 # Disciplina de AW1 - 3° Ano (313) - IFSP
 <table border=0>
   <tr>
-    <th><b>Nome: </b></th>
-    <th>José Roberto Claudino Ferreira</th>
+    <th>Nome: </th>
+    <td>José Roberto Claudino Ferreira</td>
   </tr>
   <tr>
-    <th><b>Prontuário:</b></th>
-    <th>SP3024369</li></th>
+    <th>Prontuário: </th>
+    <td>SP3024369</td>
   </tr>
 </table>
