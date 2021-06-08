@@ -1,5 +1,5 @@
 # Disciplina de AW1 - 3° Ano (313) - IFSP
-<table>
+<table border=0>
   <tr>
     <th><b>Nome: </b></th>
     <th>José Roberto Claudino Ferreira</th>
