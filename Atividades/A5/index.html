@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="">
+        <label for="nome">Nome: </label><br>
+        <input type="text" id="nome" name="nome" value="José" readonly="reaonly"><br>
+
+        <label for="senha">Senha: </label><br>
+        <input type="password" id="senha" name="senha"><br>
+
+        <hr>
+
+        <input type="radio" id="F" value="F" name="genero">
+        <label for="F">Feminino</label><br>
+
+        <input type="radio" id="M" value="M" name="genero">
+        <label for="M">Masculino</label><br>
+
+        <input type="radio" id="O" value="O" name="genero">
+        <label for="O">Outro</label>
+
+
+
+        <hr>
+
+        <input type="checkbox" id="bike" value="bike" name="bike">
+        <label for="bike">Eu tenho uma bike</label><br>
+
+        <input type="checkbox" id="carro" value="carro" name="carro">
+        <label for="carro">Eu tenho um carro</label><br>
+
+        <input type="checkbox" id="moto" value="moto" name="moto">
+        <label for="moto">Eu tenho uma moto</label>
+
+        <hr>
+
+        <label for="bebida">Você prefere beber: </label>
+        <select name="bebida" id="bebida">
+            <option value="agua">Água</option>
+            <option value="refri">Refrigerante</option>
+            <option value="suco">Suco</option>
+            <option value="alcool">Bebidas alcoólicas</option>
+        </select>
+
+        <hr>
+
+        <label for="cor">Selecione uma cor: </label><br>
+        <input type="color" id="cor" name="cor">
+
+        <hr>
+
+        <label for="dtFesta">Data da festa: </label><br>
+        <input type="date" name="dtFesta" id="dtFesta" min="2021-06-15" max="2021-06-30"><br>
+
+        <hr>
+
+        <label for="">Escolha o mês: </label>
+        <input type="month" name="mes" id="mes"><br>
+
+        <label for="semana">Escolha a semana:</label>
+        <input type="week" name="semana" id="idSemana"><br>
+
+        <label for="dt">Data para consulta: </label>
+        <input type="datetime-local" name="dt" id="dt"><br>
+
+        <label for="hora">Digite a hora: </label>
+        <input type="time" name="hora" id="hora">
+
+        <hr>
+
+        <label for="email">Email: </label>
+        <input type="email" name="emaik" id="email" maxlength="50" autocomplete="off"><br>
+
+        <hr>
+
+        <label for="arq">Selecione o arquivo: </label>
+        <input type="file" name="arq" id="arq" multiple>
+
+        <hr>
+
+        <label for="joga">Por onde você joga?</label>
+        <input list="jogar" name="joga" id="joga">
+
+        <datalist id="jogar">
+            <option value="Celular">
+            <option value="Xbox">
+            <option value="Playstation">
+            <option value="Computador">
+            <option value="Switch">
+        </datalist>
+
+        <hr>
+        <p>Dê sua opinião sobre:</p>
+        <textarea rows="4" cols="75">Escreva aqui</textarea>
+
+        <hr>
+
+
+        <fieldset>
+            <legend><strong> Input para números </strong></legend>
+            <label for="idade">Sua idade: </label>
+            <input type="number" name="idade" id="idIdade" min="1" max="130"><br>
+
+
+            <label for="qtd">Quantidade: </label>
+            <input type="number" name="qtd" id="idQtd" min="0" max="100" step="10"><br>
+
+            <label for="valor">Valor: </label><br>
+            0 <input type="range" name="valor" id="idValor" min="0" max="10" step="1"> 10
+
+            <hr>
+
+            <label for="pesquisar"></label>
+            <input type="search" name="pesquisar" id="idPesquisar">
+
+            <hr>
+
+            <label for="telefone">Telefone: </label>
+            <input type="tel" name="telefone" id="idTelefone" placeholder="(99) 99999-9999"
+                pattern="(\([0-9]{2}\))\s([9]{1})?([0-9]{4})-([0-9]{4})"
+                title="Fone precisas ser no formato (99) 99999-9999">
+        </fieldset>
+        <hr>
+
+        <label for="link">Link: </label>
+        <input type="url" name="link" id="idLink">
+
+        <hr>
+
+        <input type="button" onclick="alert('Olá Mundo')" value="Aperte Aqui!">
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Apagar">
+    </form>
+</body>
+
+</html>
