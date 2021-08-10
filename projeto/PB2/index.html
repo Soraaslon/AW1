@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfólio</title>
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="assets/fonts/style.css" />
+
+    <!-- Swiper -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header id="header">
+      <nav class="container">
+        <a class="logo" href="#">&lt<span>Soraaslon</span>/&gt</a>
+        <!-- menu -->
+        <div class="menu">
+          <ul class="grid">
+            <li><a class="title" href="#home">Início</a></li>
+            <li><a class="title" href="#about">Sobre</a></li>
+            <li><a class="title" href="#skills">Skills</a></li>
+            <li><a class="title" href="#projects">Projetos</a></li>
+            <li><a class="title" href="#forms">Contato</a></li>
+          </ul>
+        </div>
+        <!-- /menu -->
+        <div class="toggle icon-menu"></div>
+        <div class="toggle icon-close"></div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- HOME -->
+      <section class="section" id="home">
+        <div class="container grid">
+          <div class="profile-box">
+            <div class="image">
+              <img src="/assets/Self.jpg" alt="Minha foto de perfil" />
+            </div>
+            <div class="icons">
+              <a href="https://instagram.com" target="_blank">
+                <img src="/assets/Linkedin.svg" alt="Linkedin" />
+              </a>
+              <a href="https://instagram.com" target="_blank">
+                <img src="/assets/CodePen.svg" alt="CodePen" />
+              </a>
+              <a href="https://instagram.com" target="_blank">
+                <img src="/assets/GitHub.svg" alt="Github" />
+              </a>
+              <a
+                href="https://api.whatsapp.com/send?phone=+55119964393225&text=Oi! Gostaria de entrar em contato"
+                target="_blank"
+              >
+                <img src="/assets/Whatsapp.svg" alt="Whatsapp" />
+              </a>
+            </div>
+          </div>
+          <div class="text">
+            <h2 class="title">&ltJosé Roberto Claudino Ferreira/&gt</h2>
+            <p>Desenvolvedor Full-Stack</p>
+            <a
+              class="button"
+              href="/assets/Currículo-José_Roberto_Claudino_Ferreira.pdf"
+              download
+              >BAIXAR CV</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-1"></div>
+
+      <!-- ABOUT -->
+      <section class="section" id="about">
+        <div class="container grid">
+          <div class="image">
+            <img src="/assets/Foguete.svg" alt="Foguete" />
+          </div>
+          <div class="text">
+            <h2 class="title">Sobre mim</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Necessitatibus deleniti perferendis vel molestiae soluta, quaerat
+              beatae dicta ducimus praesentium architecto harum dolorum
+              distinctio illo earum assumenda itaque. Omnis, quam repellat.
+            </p>
+            <br />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure
+              illum ratione impedit quae eum quis adipisci asperiores, est
+              doloribus distinctio excepturi minima eius dolore! Perferendis
+              laborum illo aspernatur repellendus ipsum.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-2"></div>
+
+      <!-- SKILLS -->
+      <section class="section" id="skills">
+        <div class="container grid">
+          <header>
+            <h2 class="title">&ltSkills/&gt</h2>
+          </header>
+          <div class="cards grid">
+            <div class="card">
+              <img src="/assets/HTML5.svg" alt="HTML 5" />
+              <div class="bar">
+                <div class="progress-bar">aaaaaaaaaaaaaaaa</div>
+              </div>
+            </div>
+            <div class="card">
+              <img src="/assets/JS.svg" alt="JavaScript" />
+              <div class="bar">
+                <div class="progress-bar">aaaaaaaaaaaa</div>
+              </div>
+            </div>
+
+            <div class="card">
+              <img src="/assets/C++.svg" alt="C ++" />
+              <div class="bar">
+                <div class="progress-bar">aaaaaaaaaaa</div>
+              </div>
+            </div>
+            <div class="card">
+              <img src="/assets/CSS.svg" alt="CSS 3" />
+              <div class="bar">
+                <div class="progress-bar">aaaaaaaaaaaaaaa</div>
+              </div>
+            </div>
+
+            <div class="card">
+              <img src="/assets/NodeJS.svg" alt="NodeJS" />
+              <div class="bar">
+                <div class="progress-bar">aaaaaaaaaaa</div>
+              </div>
+            </div>
+            <div class="card">
+              <img src="/assets/Java.svg" alt="Java" />
+              <div class="bar">
+                <div class="progress-bar">aaaaaaaaaaaaaaa</div>
+              </div>
+            </div>
+
+            <div class="card">
+              <img src="/assets/SQL.svg" alt="MySQL" />
+              <div class="bar">
+                <div class="progress-bar">aaaaaaaa</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-1"></div>
+
+      <!-- PROJECTS -->
+      <section class="section" id="projects">
+        <div class="container">
+          <header>
+            <h2 class="title">@Projetos</h2>
+          </header>
+          <div class="projects swiper-container">
+            <div class="swiper-wrapper">
+              <div class="testimonial swiper-slide">
+                <div class="project">
+                  <img src="assets/Logo_zelon.svg" alt="Ícone do site Zelon" />
+
+                  <div class="text">
+                    <p class="title">Zelon</p>
+                    Site de questionários, voltados em reduzir a procrastinação
+                    de alguma pessoa.
+                    <p class="year">2020</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="testimonial swiper-slide">
+                <div class="project">
+                  <img
+                    src="/assets/GreenGem.png"
+                    alt="Ícone do jogo Kingdom of Gems"
+                  />
+
+                  <div class="text">
+                    <p class="title">Kingdom of Gems</p>
+                    Jogo desenvolvido com intuito de entreter e desenvolver o
+                    raciocínio de crianças, com mecânicas de puzzles e de via.
+                    <p class="year">2019</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="testimonial swiper-slide">
+                <div class="project">
+                  <img src="assets/Logo_zelon.svg" alt="Ícone do site Zelon" />
+
+                  <div class="text">
+                    <p class="title">Zelon</p>
+                    Site de questionários, voltados em reduzir a procrastinação
+                    de alguma pessoa.
+                    <p class="year">2020</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="testimonial swiper-slide">
+                <div class="project">
+                  <img
+                    src="/assets/GreenGem.png"
+                    alt="Ícone do jogo Kingdom of Gems"
+                  />
+
+                  <div class="text">
+                    <p class="title">Kingdom of Gems</p>
+                    Jogo desenvolvido com intuito de entreter e desenvolver o
+                    raciocínio de crianças, com mecânicas de puzzles e de via.
+                    <p class="year">2019</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-2"></div>
+
+      <section class="section" id="forms">
+        <h2 class="title">Contato</h2>
+
+        <div class="divider-0"></div>
+        <form method="POST" action="mailto:jrfclaudino@gmail.com">
+          <div class="input-position">
+            <div class="input-block">
+              <label for="name">Nome</label><br />
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Digite seu nome"
+                maxlength="80"
+                required
+              /><br />
+            </div>
+
+            <div class="input-block">
+              <label for="email">Email</label><br />
+              <input
+                type="e-mail"
+                id="email"
+                name="email"
+                placeholder="exemplo@gmail.com"
+                maxlength="50"
+                required
+              />
+            </div>
+          </div>
+          <div class="input-position">
+            <div class="input-block">
+              <label for="telefone">Telefone</label><br />
+              <input
+                type="tel"
+                name="telefone"
+                id="idTelefone"
+                placeholder="(99) 99999-9999"
+                pattern="(\([0-9]{2}\))\s([9]{1})?([0-9]{4})-([0-9]{4})"
+                title="Fone precisas ser no formato (99) 99999-9999"
+              />
+            </div>
+
+            <div class="input-block">
+              <label for="subject">Assunto</label><br />
+              <input
+                type="text"
+                id="subject"
+                name="subject"
+                placeholder="Digite o assunto"
+                maxlength="50"
+                required
+              /><br />
+            </div>
+          </div>
+          <div class="textarea-block">
+            <label for="content">Conteúdo</label><br />
+            <textarea id="content" name="content"></textarea><br />
+          </div>
+
+          <div class="buttons-forms">
+            <label for="apagar"
+              ><img src="assets/Lixeira.svg" alt="Ícone do site Zelon"
+            /></label>
+            <input type="reset" name="apagar" value="Apagar" id="apagar" />
+            <input
+              class="button"
+              type="submit"
+              name="enviar"
+              target="_blank"
+              value="ENVIAR"
+            />
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <footer class="section">
+      <div class="container grid">
+        <div class="social grid">
+          <a href="https://instagram.com" target="_blank">
+            <i class="icon-mail"></i>
+            jrfclaudino@gmail.com
+          </a>
+
+          <a href="https://youtube.com" target="_blank">
+            <i class="icon-phone"></i>
+            (11) 96439-3225
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <a href="#home" class="back-to-top"><i class="icon-arrow-up"></i></a>
+
+    <!-- swiper -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- scrollreveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- main.js -->
+    <script src="main.js"></script>
+  </body>
+</html>
