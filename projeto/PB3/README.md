@@ -6,4 +6,4 @@ Genius é um brinquedo de memorização que foi muito popular na década de 1980
 
 ## Link do jogo:
 
-https://soraaslon.github.io/AW1/projeto/PB3/index.html
+https://soraaslon.github.io/AW1/projeto/PB3/

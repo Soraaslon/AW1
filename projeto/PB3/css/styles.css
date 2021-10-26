@@ -68,7 +68,8 @@ html {
   font-size: 62.5%; /* corresponde a 10px o que facilita o calculo de pixel para rem */
 }
 body {
-  background-image: url('http://cdn.backgroundhost.com/backgrounds/subtlepatterns/retina_wood.png');
+  background-image: linear-gradient(125deg, #ccf, #eef);
+  background-image: url('/assets/retina_wood.png');
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
