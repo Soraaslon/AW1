@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.min.css"
+      integrity="sha512-xiunq9hpKsIcz42zt0o2vCo34xV0j6Ny8hgEylN3XBglZDtTZ2nwnqF/Z/TTCc18sGdvCjbFInNd++6q3J0N6g=="
+      crossorigin="anonymous"
+    />
+    <style>
+      #container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .form {
+        margin-top: 2rem;
+        width: 90%;
+        max-width: 800px;
+        background-color: #cff;
+        padding: 2.5rem;
+        border-radius: 2rem;
+        box-shadow: 5px 5px 5px #ccc;
+      }
+      .errorInput {
+        border: 2px solid red !important;
+      }
+      #container .form input {
+        background-color: #fff;
+        box-shadow: 2px 2px 5px #ddd;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <form action="" class="form">
+        <label for="email">E-mail ou número de telefone</label>
+        <input type="text" id="email" />
+
+        <label for="password">Senha</label>
+        <input type="password" id="password" />
+
+        <label>CPF: 000.000.000-00</label>
+        <input type="text" data-js="cpf" id="cpf" />
+
+        <label>Telefone: (00) 00000-0000</label>
+        <input type="text" data-js="phone" id="phone" />
+
+        <label>Moeda: R$ 0.000.000,00</label>
+        <input type="text" data-js="money" id="money" />
+
+        <label>Data: 00/00/0000</label>
+        <input type="text" data-js="date" id="date" />
+
+        <button id="button">Enviar</button>
+      </form>
+    </div>
+
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>
