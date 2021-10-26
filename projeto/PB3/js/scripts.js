@@ -52,6 +52,7 @@ _gui.strict.addEventListener('click', () => {
   if (!_data.gameOn) return
 
   _data.strict = _gui.led.classList.toggle('gui__led--active')
+  resetOrPlayAgain()
 })
 
 _gui.start.addEventListener('click', () => {
@@ -109,6 +110,12 @@ const setScore = () => {
 }
 
 const newColor = () => {
+  if (_data.score === 99) {
+    _data.score = 0
+    _data.gameSequence = []
+    blink('GG', startGame)
+    return
+  }
   _data.gameSequence.push(Math.floor(Math.random() * 4))
   _data.score++
 
@@ -151,7 +158,7 @@ const playSequence = () => {
     }
 
     padOn = !padOn
-  }, 500)
+  }, 375)
 }
 
 const blink = (text, callback) => {
