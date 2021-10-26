@@ -8,28 +8,12 @@
 /* 0. Variáveis
 /* 1. Tags
 /* 2. Body
+/* 2.1 Help
 /* 3. Game
 /*   3.1 Pads
 /*   3.2 Center
 /*      3.2.1 GUI
 /* 4. Footer
-/**********************************/
-
-/**********************************/
-/* Color Guide:
-/* 
-/* #00A74A : normal-green
-/* #9F0F17 : normal-red
-/* #CCA707 : normal-yellow
-/* #094A8F : normal-blue
-/* #13ff7c : light-green
-/* #ff4c4c : light-red
-/* #fed93f : light-yellow
-/* #1c8cff : light-blue
-/* #333333 : gray
-/* #ECE7EE : center
-/* #32050C : counter-color
-/*
 /**********************************/
 
 /**********************************/
@@ -165,6 +149,7 @@ body {
   z-index: 999;
   transition: 0.3s;
   overflow-y: auto;
+  box-shadow: 4px 4px 6px #777;
 }
 .help__container::-webkit-scrollbar-thumb {
   opacity: 0;
