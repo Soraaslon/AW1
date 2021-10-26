@@ -23,7 +23,8 @@ const _soundUrls = [
   'audio/simonSound1.mp3',
   'audio/simonSound2.mp3',
   'audio/simonSound3.mp3',
-  'audio/simonSound4.mp3'
+  'audio/simonSound4.mp3',
+  'audio/simonSound5.mp3'
 ]
 
 _soundUrls.forEach(sndPath => {
@@ -206,6 +207,7 @@ const resetOrPlayAgain = () => {
     blink('!!', () => {
       _data.score = 0
       _data.gameSequence = []
+      _data.sounds[4].play()
       startGame()
     })
   } else {
