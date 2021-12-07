@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script src="/index.js" defer></script>
+    <link rel="stylesheet" href="/index.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="container">
+      <div id="lyrics-container">
+        <h2>Lyrics</h2>
+        <hr />
+        <input type="text" id="title" name="title" placeholder="Título" />
+        by
+        <input type="text" id="artist" name="artist" placeholder="Artista" />
+        <button onclick="doSubmit()">Find lyrics</button>
+        <div id="output"></div>
+      </div>
+
+      <br />
+      <h2>Users</h2>
+      <hr />
+      <ul id="users"></ul>
+    </div>
+  </body>
+</html>
