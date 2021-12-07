@@ -4,7 +4,7 @@ function doSubmit() {
     .then(response => {
       output.innerHTML = response.data.lyrics.replace(
         new RegExp('\n', 'g'),
-        '<div>'
+        '<br>'
       )
     })
     .catch(err => console.log(err))
